@@ -77,7 +77,7 @@ function attachEventListeners() {
   $("#buttons").on("click", ".deleteButton", function() {
     eventsList.deleteEvent(this.id);
     $("#show-events").hide();
-    displayEventDetails(EventsList);
+    displayEventDetails(eventsList);
   });
 };
 
