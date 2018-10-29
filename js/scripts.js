@@ -67,7 +67,7 @@ function showEvent(listId) {
   $(".priority").html(list.priority);
   var buttons = $("#buttons");
   buttons.empty();
-  buttons.append("<button class='deleteButton' id=" +  + list.id + ">Delete</button>");
+  buttons.append("<button class='deleteButton' id=" +  + list.id + ">Completed</button>");
 }
 
 function attachEventListeners() {
